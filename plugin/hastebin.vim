@@ -1,4 +1,4 @@
-if !exists('g:hastebin_host')    | let g:hastebin_host = 'http://hastebin.cuttlerat.ru' | endif
+if !exists('g:hastebin_host')    | let g:hastebin_host = 'https://hastebin.cuttlerat.ru' | endif
 
 function Hastebin() range
     if executable('xclip') && executable('jq')
